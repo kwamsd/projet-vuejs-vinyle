@@ -1,35 +1,34 @@
-# projet-vuejs-vinyle
+# Projet Vinyle – Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est une application web développée avec **Vue.js** et **Vite**.
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Lancement du projet en développement
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Construction pour la production
 
-```sh
+```bash
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Aperçu du build
 
-```sh
-npm run lint
+```bash
+npm run preview
 ```
+
+## Structure
+
+- `src/` : code source principal
+- `public/` : fichiers statiques
+- `index.html` : page principale
+- `vite.config.js` : configuration de Vite
