@@ -1,0 +1,112 @@
+.login-container {
+  max-width: 450px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #282828;
+  background-image: url('/assets/image/fond-ecran-colore-flou-vif_58702-2940 - copie.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border: solid rgb(255, 255, 255) 1px;
+  border-radius: 60%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  top: -75px;
+  right: -75px;
+  z-index: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.form-group {
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.error-message {
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: #B91D1D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.login-button:hover {
+  background-color: #E03A3A;
+  transform: scale(1.03);
+}
+
+.register-link {
+  margin-top: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.register-link a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.register-link a:hover {
+  color: #E03A3A;
+}

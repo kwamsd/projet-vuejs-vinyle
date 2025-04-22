@@ -1,0 +1,66 @@
+/* src/assets/styles/main.css */
+@import '../base.css';
+@import './app.css';
+@import './views/home.css';
+@import './views/login.css';
+@import './views/register.css';
+@import './views/cart.css';
+
+:root {
+  --color-background: #121212;
+  --color-text: #ffffff;
+  --color-primary: #ff0000;
+  --color-secondary: #2c2c2c;
+  --color-accent: #ff5252;
+  --color-border: #333333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: #2dd9eccc;
+  line-height: 1.6;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
